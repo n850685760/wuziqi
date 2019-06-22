@@ -1,0 +1,165 @@
+.box {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative; }
+
+.chess {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  float: left;
+  z-index: 999; }
+
+.black {
+  background: black; }
+
+.red {
+  background: red; }
+
+.hang {
+  width: 560px;
+  height: 1px;
+  background: black;
+  position: absolute;
+  left: 20px; }
+
+.shu {
+  height: 560px;
+  width: 1px;
+  background: black;
+  position: absolute;
+  top: 20px; }
+
+.hang:nth-of-type(1) {
+  top: 20px;
+  animation: in 50ms 1 ease-in forwards; }
+
+.shu:nth-of-type(1) {
+  left: 20px;
+  animation: down 50ms 1 ease-in forwards; }
+
+.hang:nth-of-type(2) {
+  top: 60px;
+  animation: in 100ms 1 ease-in forwards; }
+
+.shu:nth-of-type(2) {
+  left: 60px;
+  animation: down 100ms 1 ease-in forwards; }
+
+.hang:nth-of-type(3) {
+  top: 100px;
+  animation: in 150ms 1 ease-in forwards; }
+
+.shu:nth-of-type(3) {
+  left: 100px;
+  animation: down 150ms 1 ease-in forwards; }
+
+.hang:nth-of-type(4) {
+  top: 140px;
+  animation: in 200ms 1 ease-in forwards; }
+
+.shu:nth-of-type(4) {
+  left: 140px;
+  animation: down 200ms 1 ease-in forwards; }
+
+.hang:nth-of-type(5) {
+  top: 180px;
+  animation: in 250ms 1 ease-in forwards; }
+
+.shu:nth-of-type(5) {
+  left: 180px;
+  animation: down 250ms 1 ease-in forwards; }
+
+.hang:nth-of-type(6) {
+  top: 220px;
+  animation: in 300ms 1 ease-in forwards; }
+
+.shu:nth-of-type(6) {
+  left: 220px;
+  animation: down 300ms 1 ease-in forwards; }
+
+.hang:nth-of-type(7) {
+  top: 260px;
+  animation: in 350ms 1 ease-in forwards; }
+
+.shu:nth-of-type(7) {
+  left: 260px;
+  animation: down 350ms 1 ease-in forwards; }
+
+.hang:nth-of-type(8) {
+  top: 300px;
+  animation: in 400ms 1 ease-in forwards; }
+
+.shu:nth-of-type(8) {
+  left: 300px;
+  animation: down 400ms 1 ease-in forwards; }
+
+.hang:nth-of-type(9) {
+  top: 340px;
+  animation: in 450ms 1 ease-in forwards; }
+
+.shu:nth-of-type(9) {
+  left: 340px;
+  animation: down 450ms 1 ease-in forwards; }
+
+.hang:nth-of-type(10) {
+  top: 380px;
+  animation: in 500ms 1 ease-in forwards; }
+
+.shu:nth-of-type(10) {
+  left: 380px;
+  animation: down 500ms 1 ease-in forwards; }
+
+.hang:nth-of-type(11) {
+  top: 420px;
+  animation: in 550ms 1 ease-in forwards; }
+
+.shu:nth-of-type(11) {
+  left: 420px;
+  animation: down 550ms 1 ease-in forwards; }
+
+.hang:nth-of-type(12) {
+  top: 460px;
+  animation: in 600ms 1 ease-in forwards; }
+
+.shu:nth-of-type(12) {
+  left: 460px;
+  animation: down 600ms 1 ease-in forwards; }
+
+.hang:nth-of-type(13) {
+  top: 500px;
+  animation: in 650ms 1 ease-in forwards; }
+
+.shu:nth-of-type(13) {
+  left: 500px;
+  animation: down 650ms 1 ease-in forwards; }
+
+.hang:nth-of-type(14) {
+  top: 540px;
+  animation: in 700ms 1 ease-in forwards; }
+
+.shu:nth-of-type(14) {
+  left: 540px;
+  animation: down 700ms 1 ease-in forwards; }
+
+.hang:nth-of-type(15) {
+  top: 580px;
+  animation: in 750ms 1 ease-in forwards; }
+
+.shu:nth-of-type(15) {
+  left: 580px;
+  animation: down 750ms 1 ease-in forwards; }
+
+@keyframes down {
+  from {
+    transform: translate3d(0, -300%, 0); }
+  to {
+    transform: translate3d(0, 0, 0); } }
+
+@keyframes in {
+  from {
+    transform: translate3d(-300%, 0, 0); }
+  to {
+    transform: translate3d(0, 0, 0); } }
